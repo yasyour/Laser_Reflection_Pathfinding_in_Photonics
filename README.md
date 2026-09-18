@@ -13,6 +13,8 @@ The simulation calculates the distance to the nearest boundary based on the beam
 
 ## How to run
 Compile and run the program, then enter the grid dimensions, launch edge, launch angle, maximum bounces, and target coordinates when prompted.
+This project consists of two files: `main.cpp` and `theheaderfile.h` (containing the `markLine` function, which uses Bresenham's line algorithm to trace the beam's path). Make sure both are in the same folder, then compile and run.
+
 
 ## Example
 Grid: 20 × 79, starting edge: left, max bounces: 10, launch angle: 40°. 
